@@ -5,5 +5,8 @@ public class Variables {
         int sum = a + b;
         System.out.print("The sum of a and b is = ");
         System.out.println(sum);
+        int diff = a - b;
+        System.out.println("The diff btween a and b is = ");
+        System.out.print(diff);
     }
 }
