@@ -1,11 +1,11 @@
-
+import java.util.*;
 
 public class Calculator {
     public static void main(String[] args) {
-        int a = 10;
-        int b = 7;
-
-        int sum = a+b;
+        Scanner z = new Scanner(System.in);
+        int a = z.nextInt();
+        int b = z.nextInt();
+        int sum = a + b;
         int diff = a-b;
         int prod = a*b;
         int div = a/b;
