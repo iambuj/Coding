@@ -83,11 +83,7 @@ class Vowels {
         String vow = sc.next();
         switch(vow) {
 
-        case "a":
-        case "e":
-        case "i":
-        case "o":
-        case "u": System.out.println("It is a vowel ");
+        case "a", "e", "i" ,"o", "u": System.out.println("It is a vowel ");
         break;
         default: System.out.println("It's not a vowel ");
         }
