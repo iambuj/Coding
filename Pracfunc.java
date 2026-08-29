@@ -125,39 +125,18 @@ class Voting{
 }
 
 
-// Infinite loop using DO While Method ----
-
-// class InfiniteLoop {
-//     public static int Infinite(int a){
-//         do { 
-//             int i = 1;
-//             i++;
-//             return i*a;
-            
-//         }
-//         while ( a < 10);
-//     }
-
-//     public static void main(String[] args) {
-//         Scanner sc =new Scanner(System.in);
-//         System.out.print("Enter the number : ");
-//         int n = sc.nextInt();
-//         int x = Infinite(n);
-//         System.out.println(x);
-//     }
-// }
+// Infinite loop using DO While Method ----}
 
 class LoopDemo {
 
     public static void main(String[] args) {
-        // Calling the function execution
         executeInfiniteLoop();
     }
 
-    // Function that contains the infinite do-while loop
     public static void executeInfiniteLoop() {
         do {
             System.out.println("Processing data in a loop...");
-        } while (true); // Always true
+        } while (true);
     }
 }
+
