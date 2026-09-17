@@ -17,6 +17,7 @@ public class Classses {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        
         Bank b1 = new Bank();
         b1.name = sc.nextLine();
         b1.State = sc.next();
