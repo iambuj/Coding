@@ -21,7 +21,7 @@ class Student {
     }
 }
 
-public class EncapsulatiionStudent {
+public class EncapsulatiionStudennt {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

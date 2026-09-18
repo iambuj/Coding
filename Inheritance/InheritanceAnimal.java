@@ -14,7 +14,7 @@ class Dog extends Animal{
     }
 }
 
-public class OInheritanceAnimal {
+public class InheritanceAnimal {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
