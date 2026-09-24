@@ -6,7 +6,7 @@ class Employee {
     }
 }
 
-class Developer extends Employees{
+class Developer extends Employee{
     public void work() {
         System.out.println("Hiii Abhinav");
     }
