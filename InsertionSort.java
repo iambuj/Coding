@@ -12,7 +12,7 @@ public class InsertionSort {
         Scanner sc =  new Scanner(System.in);
         System.out.print("Enter the size : ");
         int a = sc.nextInt();
-        int insertion[] = new int[a];
+        int insertion[] = new int[a]; 
         for (int i = 0; i < insertion.length; i++) {
             System.out.print("Enter the elemnt : ");
             insertion[i] = sc.nextInt();
