@@ -13,23 +13,23 @@ public class Trees1 {
 
     static class BinaryTree{
         static int idx = -1;
-        public static Node buildTRee(int node[]) {
+        public static Node buildTRee(int arr[]) {
             idx++;
-            if(node[idx] == -1){
+            if(arr[idx] == -1){
+                System.out.println(idx);
                 return null;
             }
 
-            Node newNode = new Node(node[idx]);
-            newNode.left = buildTRee(node);
-            newNode.right = buildTRee(node);
+            Node newNode = new Node(arr[idx]);
+            newNode.left = buildTRee(arr);
+            newNode.right = buildTRee(arr);
 
             return newNode;
         }
     } 
     public static void main(String[] args) {
-        int node[] = {1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1 };
-        BinaryTree tree = new BinaryTree();
-        Node root = tree.buildTRee(node);
+        int arr[] = {1, 2, -1, -1, 4 , -1, -1};
+        Node root = Trees1.BinaryTree.buildTRee(arr);
         System.out.print(root.data);
     }
 }
