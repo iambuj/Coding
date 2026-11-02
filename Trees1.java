@@ -16,14 +16,14 @@ public class Trees1 {
         public static Node buildTRee(int arr[]) {
             idx++;
             if(arr[idx] == -1){
-                System.out.println(idx);
+                System.out.println( "index =  " + idx + " inside null condition");
                 return null;
             }
 
             Node newNode = new Node(arr[idx]);
             newNode.left = buildTRee(arr);
             newNode.right = buildTRee(arr);
-
+            System.out.println("Node value : " + newNode.data );
             return newNode;
         }
     } 
