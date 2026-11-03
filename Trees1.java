@@ -16,7 +16,7 @@ public class Trees1 {
         public static Node buildTRee(int arr[]) {
             idx++;
             if(arr[idx] == -1){
-                System.out.println( "index =  " + idx + " inside null condition");
+                System.out.println( "index =  " + idx);
                 return null;
             }
 

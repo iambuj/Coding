@@ -28,7 +28,7 @@ public class Trees2 {
         }
     } 
     public static void main(String[] args) {
-        int arr[] = {1, 2, -1, -1, 4 , -1, -1};
+        int arr[] = {1, 2, -1, -1, 4 , 8, 26, -1, -1, 70, 90, -1, -1, -1, -1    };
         Node root = Trees2.BinaryTree.buildTRee(arr);
         System.out.print(root.data);
     }
