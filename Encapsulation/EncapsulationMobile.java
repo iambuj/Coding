@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import Practice.Mobile;
+
 class Mobile{
     private String brand;
     private int price;

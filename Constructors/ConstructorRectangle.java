@@ -1,6 +1,8 @@
 
 import java.util.Scanner;
 
+import Practice.Rectangle;
+
 class Rectangle{
     int length;
     int breadth;

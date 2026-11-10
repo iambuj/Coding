@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+import Practice.Car;
+import Practice.Vehicle;
+
 class Vehicle{
     String brand;
 

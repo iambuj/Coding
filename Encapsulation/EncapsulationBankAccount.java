@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import Practice.BankAccount;
+
 class BankAccount {
     private int balance;
 

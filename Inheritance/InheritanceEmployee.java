@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import Static.Employee;
+
 class Employee {
     public void work() {
         System.out.println("Hello Ambuj");

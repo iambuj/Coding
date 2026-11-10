@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import Static.Bank;
+
 class Bank{
     private int balance;
 

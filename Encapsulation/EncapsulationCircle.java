@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import Practice.Circle;
+
 class Circle{
     private int radius;
     private double area;

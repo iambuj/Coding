@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import Static.Student;
+
 class Student{
     String name;
     int age;

@@ -1,4 +1,4 @@
-package binarytree20261103;
+package Trees;
 
 class Tree {
     int data;
