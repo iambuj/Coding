@@ -9,8 +9,10 @@ public class HashSet1 {
             set.add(arr[i]);
         }
 
-        for(int key : set) {
-            System.out.print(key + " ");
-        }
+        // for(int key : set) {
+        //     System.out.print(key + " ");
+        // }
+
+        System.out.println(set);
     }
 }
